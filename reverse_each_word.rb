@@ -3,8 +3,8 @@ def reverse_each_word(string)
   array << string.split(" ")
 
   array.each do |word|
-  array1 = []
-  array1 << word.reverse
+  arrayo = []
+  arrayo << word.reverse
   end
-  return "#{array1.join(" ")}"
+  return "#{arrayo.join(" ")}"
 end
